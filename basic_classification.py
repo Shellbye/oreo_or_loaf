@@ -23,6 +23,7 @@ plt.figure()
 plt.imshow(train_images[0])
 plt.colorbar()
 plt.gca().grid(False)
+plt.show()
 
 train_images = train_images / 255.0
 
